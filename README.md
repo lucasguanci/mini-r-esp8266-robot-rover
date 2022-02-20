@@ -1,12 +1,11 @@
-# mini-R
+# :: mini-R :: a Wi-Fi controlled rover-robot based on ESP8266
 **mini-R** è un _robot-rover_ controllato via Wi-Fi costruito attorno al kit [Adafruit Mini Robot Rover Chassis](https://www.adafruit.com/product/2939).
 I codici completi per il controllo del robot e per l'interfaccia web sono disponibili nella [repository del progetto su GitHub](https://github.com/lucasguanci/esp8266/tree/main/esp8266-mini-r).
 
 <figure style="text-align: center; margin: auto">
-  <img style="margin-bottom: 1em" src="/img/{{.Get `url`}}"/>
-  <div class="caption">{{.Get `caption`}}</div>
+  <img style="margin-bottom: 1em" src="https://www.idrovolante.org/img/mcu-esp8266-mini-r-08.jpg"/>
+  <div class="caption">Il robot-rover mini-R.</div>
 </figure>
-{{< insertImg align="center" url="https://www.idrovolante.org/img/mcu-esp8266-mini-r-08.jpg" caption="Il robot-rover mini-R.">}}
 
 Al centro del progetto si trova un [Adafruit ESP8266 Feather Huzzah]({{< ref "esp8266" >}}) impostato in [modalità soft-AP]({{< ref "esp8266/#soft-access-point-mode-ap-mode" >}}) e controllato tramite una web-app. Il driver dei motori è la scheda [Adafruit DC Motor + Stepper FeatherWing](https://www.adafruit.com/product/2927).
 

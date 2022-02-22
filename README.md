@@ -11,7 +11,7 @@ At the heart of the project lies an [Adafruit ESP8266 Feather Huzzah](https://ww
 **mini-R** works without the need for an Internet connection: the robot-rover creates its own Wi-Fi network and runs a web server that makes possible to control its movements.
 
 ## The logic inside mini-R
-The code is written using the Arduino IDE and makes use of the standard ESP8266 libraries for creating a Wi-Fi network in soft-AP mode and for running a web server on mini-R.
+The code is written using the Arduino IDE and makes use of the standard ESP8266 libraries for creating a Wi-Fi network in soft-AP mode and for running a web server on **mini-R**.
 The commands are received via the WebSocket interface and are linked to functions used to make the rover-robot move forward/backward and turn left/right.
 
 
